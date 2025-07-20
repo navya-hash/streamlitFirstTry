@@ -11,7 +11,7 @@ from sklearn.pipeline import Pipeline
 st.title("Diabetes dataset visualizations")
 # step1(load the dataset)
 
-df=pd.read_csv(r"C:\Users\navya\Downloads\diabetes (1).csv")
+df=pd.read_csv("diabetes(1).csv")
 X=df.iloc[:,:-1]
 Y=df.iloc[:,-1]
 st.dataframe(df)
